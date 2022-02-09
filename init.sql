@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS dev;
+USE dev;
+
+CREATE TABLE IF NOT EXISTS key_value_table (
+	keyValue	VARCHAR(100) NOT NULL,
+	value	VARCHAR(100) NOT NULL,
+	PRIMARY KEY(keyValue)
+);
